@@ -1,0 +1,28 @@
+{
+  "name": "blog-zenith",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Blog digital: Aprender hoy para cuidar el mañana — propuesta de innovación pedagógica en educación ambiental (Areandina, Eje 4).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "admin:hash": "node scripts/hash-clave.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "sql.js": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/sql.js": "^1.4.9",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11"
+  }
+}
